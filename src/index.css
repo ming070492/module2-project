@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  display: flex;
+  justify-content: center;
+  height: 60vh;
+  padding-top: 2em;
+  background-color: rgb(47, 42, 59);
+  width: 50%;
+  margin: auto;
+  margin-top: 2em;
+  border-radius: 10px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+html {
+  background-color: rgb(34, 31, 43);
+}
+
+.label {
+  width: 5em;
+  border-radius: 5px;
+  margin: auto;
+}
+
+.failed {
+  background: rgba(255, 0, 0, 0.609);
+}
+
+.success {
+  background: rgba(21, 255, 0, 0.609);
+}
